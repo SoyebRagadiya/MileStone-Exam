@@ -1,0 +1,119 @@
+@media (max-width: 640px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: none;
+  }
+
+  /*-------------------
+ -----HEADER PC-------
+ ---------------------*/
+  .headerpc {
+    border: 1px solid black;
+    background-color: brown;
+    display: none;
+  }
+
+
+  /*-------------------
+ -----HEADER MOBILE-------
+ ---------------------*/
+
+  .headermobile {
+
+    display: flex;
+    /* position: sticky;
+    top: 10PX; */
+    padding: 2PX 3PX;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .headermobile img {
+    width: 40px;
+  }
+
+  .texr {
+    display: flex;
+    height: 30px;
+  }
+
+  .texr>h4 {
+    margin-top: 5PX;
+    margin-left: 5PX;
+
+
+  }
+
+  /*-------------------
+-------Section 1-----
+---------------------*/
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .s1 {
+    width: 100%;
+  }
+
+  .s2 {
+    width: 100%;
+  }
+
+  /*-------------------
+-------Section 2-----
+---------------------*/
+  .section2 {
+    margin: 3% 0px 0px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+  }
+
+  .but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+  }
+  .butimg {
+    height:20px;
+  }
+  .butimg img {
+    margin: 5px 0px 0px 0px;
+    width: 80px;
+    position: absolute;
+    right: 20px;
+    height: fit-content;
+  }
+
+
+  /*-------------------
+-------FOOTER--------
+---------------------*/
+  footer {
+
+    display: grid;
+    grid-template-columns: auto;
+    padding: 3% 1%;
+    gap: 30px 0px;
+    justify-content: space-around;
+  }
+
+
+
+}

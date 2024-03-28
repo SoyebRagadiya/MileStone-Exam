@@ -1,0 +1,547 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.margin2 {
+    margin: 0% 3%;
+}
+
+:root {
+    --color: white;
+    --background-color: #23A6F0;
+    --img-background: #8EC2F2;
+}
+
+body {
+    width: 100%;
+}
+
+/*-------------
+------Header---
+------------ */
+
+header {
+    background-image: url("png/backgroumd.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* width: 100%; */
+    height: 500px;
+
+
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.header1 h3 {
+    font: bold;
+    font-size: x-large;
+}
+
+.header1 a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.atag {
+    display: flex;
+    column-gap: 15px;
+}
+
+.header1 button {
+    padding: 12px 1px;
+    background-color: var(--background-color);
+    color: var(--color);
+    border: none;
+    border-radius: 3%;
+    margin-top: 5px;
+
+}
+
+/* ----------
+-----Header2-
+------------ */
+.header2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+    margin-top: 3%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* ----------
+------h1-----
+------------ */
+.h1 {
+    width: fit-content;
+    height: fit-content;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.h1 h1 {
+    font-size: xx-large;
+    font: bold;
+    color: var(--color);
+}
+
+.h1 p {
+    color: var(--color);
+}
+
+.h1 div {
+    display: flex;
+    column-gap: 20px;
+}
+
+.h1 button {
+    background-color: var(--background-color);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: var(--color);
+
+}
+
+
+
+/* ----------
+------h2-----
+------------ */
+
+.h2 {
+    border-radius: 2%;
+    width: fit-content;
+    height: 320px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;}
+
+.h2 h3 {
+    text-align: center;
+    font: bold;
+    text-decoration: underline;
+}
+
+.h2 form {
+    padding: 5px;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 250px;
+    text-align: start;
+
+}
+
+.h2 form label {
+    color: black;
+    font: bold;
+}
+
+.h2 form input {
+    height: 25px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+.h2 button {
+    border: none;
+    padding: 10px 25px;
+    background-color: var(--background-color);
+    color: var(--color);
+    margin-top: 10px;
+}
+
+.h2 form select {
+    height: 25px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+.h2 form select option {
+    color: black;
+}
+
+
+
+/* ----------
+----Section1-----
+------------ */
+.section1 {
+    margin-top: 5%;
+}
+
+.section1 h1 {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.se1p {
+    text-align: center;
+    margin: 10px 0px 20px;
+}
+
+.section1box {
+    display: flex;
+    justify-content: center;
+    gap: 5px 15px;
+    flex-wrap: wrap;
+}
+
+.secbox1 {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    background-color: var(--background-color);
+    padding: 15px 20px;
+    color: var(--color);
+}
+
+.secbox1 i {
+    padding: 10px;
+    border-radius: 50px;
+    background-color: white;
+    color: var(--background-color);
+}
+
+.secbox2 {
+    border: 1px solid var(--background-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 230px;
+    row-gap: 10px;
+    justify-content: center;
+    padding-left: 20px;
+
+}
+
+.pcolor {
+    color: var(--background-color);
+}
+
+
+/* ----------
+--Section 2--
+------------ */
+.section2 {
+    margin: 5% 0%;
+    padding: 50px;
+    background-color: whitesmoke;
+    height: fit-content;
+}
+
+.section2 h1 {
+    text-align: center;
+}
+
+.sec2p {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.sec2boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sec2box {
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px gray;
+    width: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.sec2box img {
+    height: 50px;
+    width: 50px;
+}
+
+.star i {
+    color: gold;
+}
+
+
+/* ----------
+--Section 3--
+------------ */
+
+.section3 {
+    width: 100%;
+}
+
+.section3 h1 {
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.sec3p {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.sec3boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: 3fr;
+
+
+}
+
+.sec3box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 250px;
+    height: fit-content;
+    padding-left: 8px;
+    position: relative;
+    justify-content: center;
+    margin: 2%;
+
+}
+
+.sec3box i {
+    color: var(--background-color);
+    position: absolute;
+    top: 5px;
+    left: 1px;
+    width: 10px;
+    height: 5px;
+}
+
+.sec3box h3 {
+    margin-left: 8px;
+    display: inline;
+}
+
+.sec3box p {
+    margin-left: 8px;
+    color: gray;
+}
+
+/* ----------
+--Section 4--
+------------ */
+
+.section4 {
+    background-color: whitesmoke;
+}
+
+.section4 h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.sec4p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.sec4boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: end;
+    margin: 3% 0%;
+
+
+}
+
+.sec4boxes h2 {
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.sec4bp {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.sec4box {
+    border: 1px solid var(--background-color);
+    border-radius: 10PX;
+    width: 280px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+}
+
+.sec4div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--background-color);
+
+
+}
+
+.sec4div h2 {
+    font-size: 30px;
+}
+
+.sec4div h2>i {
+    color: var(--background-color);
+    background-color: transparent;
+    position: relative;
+    bottom: 18px;
+    left: 5px;
+    font-size: 18px;
+
+}
+
+.sec4div p {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.sec4box>p {
+    margin-top: 10px;
+}
+
+.sec4box i {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+.last i {
+    background-color: gray;
+
+}
+
+.sec4box button {
+    margin-top: 5%;
+    padding: 15px 2px;
+    background-color: var(--background-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.heght {
+    height: 500px;
+    background-color: rgb(9, 9, 43);
+    color: white;
+}
+
+
+
+/* ----------
+--Section 5--
+------------ */
+.section5 {
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(9, 9, 43);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% 3%;
+}
+
+
+.sec5d1 p {
+    margin-top: 10px;
+    color: rgb(143, 143, 143);
+}
+
+.sec5d2 {
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+}
+
+.sec5d2>input {
+    border: none;
+    padding: 10px 25px;
+}
+
+.sec5d2>input:hover {
+    border: none;
+}
+
+.sec5d2 button {
+    background-color: var(--background-color);
+    padding: 10px 25px;
+    border: none;
+    color: white;
+}
+
+
+/* ----------
+--Footer--
+------------ */
+
+footer{
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer p{
+    margin-top: 10px;
+    color: gray;
+}
+
+.f1>p{
+    margin-bottom: 15px;
+}
+
+.ficon{
+    color: var(--background-color);
+   display: flex;
+   column-gap: 15px;
+   font-size: 20px;
+   margin-top: 10px;
+}
+
+
+.footer2{
+    margin: 0 ;
+    margin-bottom: 10px;
+    background-color:whitesmoke;
+}
+
+.footer2 p{
+    font-size: 20px;
+}

@@ -1,0 +1,246 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    background: linear-gradient(90deg, white 70%, whitesmoke 30%);
+    height: fit-content;
+}
+
+.flex {
+    display: flex;
+}
+
+.margin {
+    margin: 1% 3% 2% 3%;
+}
+
+.buttoncolor:hover {
+    background-color: orangered;
+    color: white;
+}
+
+/*-------------------
+-------Header-------- 
+---------------------*/
+.headerpc{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 10px;
+}
+
+.logo {
+    align-items: center;
+    column-gap: 8px;
+}
+
+.logo img {
+    height: fit-content;
+}
+
+header a {
+    text-decoration: none;
+    color: gray;
+    font: bold;
+}
+
+header a:hover {
+    color: orangered;
+}
+
+.abutton {
+    display: flex;
+    gap: 0px 20px;
+}
+
+header button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+/*-------------------
+----  HEADER PC -----
+---------------------*/
+
+/*-------------------
+-------Section 1-----
+---------------------*/
+
+.section1 {
+        
+    margin: 1% 3% 0% 3%;
+    /* border: 1px solid black; */
+    display: flex;
+
+}
+
+.s1 {
+    width: 55%;
+    position: relative;
+}
+
+.s1>h1{
+    font-size: 40PX;
+    margin: 20PX 0PX;
+}
+
+.ph{
+    margin-left: 10px;
+    border-left: 2px solid black;
+    display: flex;
+    gap: 10px;
+
+}
+
+.s1 p{
+    margin-left: 5px;
+    color:gray;
+    font: 14px;
+}
+
+.s2 {
+    position: relative;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s22 {
+    position: relative;
+}
+
+.png {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.png>img {
+    width: 250px;
+    height: 280px;
+    position: absolute;
+}
+
+.bo2 {
+    padding: 10px 60px 4px 60px;
+}
+
+.ic1 {
+    width: 25px;
+    position: absolute;
+
+}
+
+.iic1 {
+    top: 1px;
+}
+
+.iic2 {
+    bottom: 1px;
+
+}
+
+.iic3 {
+    bottom: 150px;
+    right: 1px;
+
+}
+
+
+/*-------------------
+-------Section 2-----
+---------------------*/
+.headermobile{
+    display: none;
+}
+
+.section2{
+
+    margin: 0% 0% 0% 5%;
+    width: fit-content;
+    display: flex;
+    gap: 0px 30px;
+    align-items: center;
+
+ 
+
+}
+.but{
+    display: flex;
+    gap: 0px 45px;
+
+}
+.butimg>img{
+    margin-top: 30px;
+    width: 80px;
+    height: 50px;
+    
+}
+.but>button{
+    padding: 10px 25px;
+}
+.but button:hover{
+    background-color: orangered;
+    color: white;
+    border: 1px solid black;
+}
+/*-------------------
+-------Footer------- 
+---------------------*/
+
+footer {
+    border: 1px solid black;
+    background-color: rgb(38, 37, 67);
+    margin-top: 50px;
+    padding: 3% 3% 1.5% 3%;
+    display: grid;
+    grid-template-columns: 25% 20% 20% 20%;
+    justify-content: space-around;
+    color: white;
+}
+
+footer h3 {
+    font-size: x-large;
+}
+
+footer h3,h4 {
+    margin-bottom: 12px;
+}
+
+footer p {
+    color: grey;
+}
+
+footer img {
+    border: 1px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+.fo2 img {
+    background-color: rgb(28, 215, 175);
+}
+
+.fo3 img {
+    background-color: rgb(252, 91, 17);
+}
+
+.fo4 img {
+    background-color: rgb(82, 91, 241);
+}
+
+
+
